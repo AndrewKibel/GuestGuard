@@ -66,7 +66,7 @@ The rule-based evaluator is intentionally transparent but limited; the optional 
 
 ## Future improvements
 
-With more time, I would improve GuestGuard by testing it on more realistic guest conversations, calibrating the scoring with real outcomes, comparing rule-based and LLM evaluations when they disagree, and connecting it to structured property data instead of raw SOP text.
+With more time, I would improve GuestGuard by testing it on more realistic guest conversations as well as comparing rule-based and LLM evaluations when they disagree.
 
 A more advanced version could also use logged evaluations as training data. For example, if property managers marked whether GuestGuard’s decision was correct, that feedback could be used to improve the evaluator over time, fine-tune prompts, identify common failure patterns, or eventually train a more accurate model for hospitality-specific AI response QA.
 

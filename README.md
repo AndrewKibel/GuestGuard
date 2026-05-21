@@ -62,9 +62,7 @@ Run the app:
 
 ## Limitations
 
-This is a prototype, not a production-ready system. The rule-based evaluator only catches the types of issues it was designed to recognize, so it can miss edge cases. The LLM evaluator helps with more flexible language, but it depends on API access and model behavior.
-
-The app also does not connect to real booking calendars, cleaning status, property management systems, or historical guest conversations.
+The rule-based evaluator is intentionally transparent but limited; the optional LLM mode is there to handle more flexible language. In a real product, I’d use both: deterministic guardrails for high-risk cases and LLM evaluation for nuance.
 
 ## Future improvements
 
